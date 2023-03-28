@@ -24,6 +24,7 @@ Gray Color: #343a40
 body {
   font-family: "Inter", sans-serif;
   color: #343a40;
+  border-bottom: 8px solid #087f5b;
 }
 
 .container {
@@ -100,7 +101,15 @@ img {
 }
 
 /* FEATURES */
-.features-icon {
+.feature-icon {
+  stroke: #087f5b;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 16px;
+}
+
+.feature-icon:hover {
+  stroke: blue;
 }
 
 .features-title {
@@ -112,6 +121,9 @@ img {
 
 /* TESTIMONIAL */
 .testimonial-section {
+  background-color: #087f5b;
+  color: #fff;
+  padding: 18px;
 }
 
 .testimonial-box {
