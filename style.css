@@ -34,7 +34,7 @@ body {
 
 header,
 section {
-  margin-bottom: 48px;
+  margin-bottom: 64px;
 }
 
 h2 {
@@ -55,6 +55,7 @@ h2 {
   text-transform: uppercase;
   padding: 16px 32px;
   display: inline-block;
+  border-radius: 12px;
 }
 
 .btn:hover,
@@ -72,6 +73,10 @@ h2 {
   padding: 8px 12px;
 }
 
+img {
+  border-radius: 14px;
+}
+
 /* ------------------------ */
 /* COMPONENT STYLES */
 /* ------------------------ */
@@ -81,7 +86,7 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 80px;
-  margin-top: 48px;
+  margin-top: 64px;
 }
 
 .header-text-box {
@@ -125,6 +130,7 @@ img {
   background-color: #087f5b;
   color: #fff;
   padding: 18px;
+  border-radius: 14px;
 }
 
 .testimonial-box {
@@ -144,6 +150,7 @@ img {
 /* CHAIRS */
 
 .chair {
+  border-radius: 12px;
   box-shadow: 0px 20px 30px 10px rgba(10, 10, 10, 0.26);
 }
 
@@ -180,6 +187,8 @@ h3 {
 .chair-price {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
 }
 
 footer {
